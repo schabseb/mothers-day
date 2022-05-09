@@ -7,7 +7,7 @@ function App() {
   const [red, setRed] = useState(false);
 
   useEffect(() => {
-    const interval = setInterval(() => setRed(!red), 350);
+    const interval = setInterval(() => setRed(!red), 300);
 
     return () => {
       clearInterval(interval);

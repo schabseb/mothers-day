@@ -13,7 +13,9 @@ const Header = ({ title, onClick, color }) => {
         style={{ color: color, marginLeft: '15px' }}
         size={25}
       />
-      <p style={{ marginLeft: '10px', fontSize: '0.75em', fontFamily: 'Impact' }}>click here!</p>
+      <p style={{ marginLeft: '10px', fontSize: '0.75em', fontFamily: 'Impact' }}>
+        click here!
+      </p>
     </header>
   )
 }
